@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Constructor</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="spin_elements">
+        <item></item>
+        <item>Провідник</item>
+        <item>Вгору(лівий)</item>
+        <item>Вниз(лівий)</item>
+        <item>Вгору(правий)</item>
+        <item>Вниз(правий)</item>
+        <item>Видалити</item>
+    </string-array>
+
+</resources>
