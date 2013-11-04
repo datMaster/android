@@ -42,7 +42,7 @@ public class MainActivity extends Activity {
         final Spinner mSpinner = (Spinner)findViewById(R.id.spinner);
 //        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.spinner_rows, R.id.spinner, elemets);
 //        mSpinner.setAdapter(adapter);
-
+// test
         MyCustomAdapter mAdapter = new MyCustomAdapter(MainActivity.this, R.layout.spinner_rows, elemets);
         mSpinner.setAdapter(mAdapter);
 
