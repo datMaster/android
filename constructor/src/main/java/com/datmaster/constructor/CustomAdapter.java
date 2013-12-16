@@ -61,10 +61,10 @@ public class CustomAdapter extends ArrayAdapter<String> {
         tempValues = null;
         tempValues = (SpinnerModel)data.get(position);
 
-//        TextView label        = (TextView)row.findViewById(R.id.company);
+        TextView label = (TextView)row.findViewById(R.id.company);
 //        TextView sub          = (TextView)row.findViewById(R.id.sub);
         ImageView elementImage = (ImageView)row.findViewById(R.id.image);
-
+//        label.setText(tempValues.getItemDescription());
 //        if(position==0){
 
             // Default selected Spinner item
@@ -74,7 +74,7 @@ public class CustomAdapter extends ArrayAdapter<String> {
 //        else
 //        {
             // Set values for spinner each row
-//            label.setText(tempValues.getItemDescription());
+            label.setText(tempValues.getItemDescription());
             elementImage.setImageResource(res.getIdentifier("com.datmaster.constructor:drawable/" + tempValues.getImage(), null, null));
 //        }
 
