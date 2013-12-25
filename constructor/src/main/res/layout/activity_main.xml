@@ -21,8 +21,8 @@
         android:layout_height="fill_parent">
 
         <GridLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="440dp"
+            android:layout_height="360dp"
             android:layout_gravity="left|top"
             android:background="#d0ff9b">
 
@@ -911,8 +911,9 @@
                         android:id="@+id/editText3"
                         android:gravity="top"
                         android:textSize="10dp"
-                        android:textColor="#000000"
-                        android:textStyle="normal" />
+                        android:textColor="#fff613"
+                        android:textStyle="normal"
+                        android:background="@drawable/black" />
 
                 </LinearLayout>
             </LinearLayout>

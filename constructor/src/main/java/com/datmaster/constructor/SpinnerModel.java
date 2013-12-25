@@ -6,7 +6,6 @@ package com.datmaster.constructor;
 public class SpinnerModel {
     private  String itemDescription ="";
     private  String Image="";
-    private int id = -1;
 
     /*********** Set Methods ******************/
     public void setItemDescription(String CompanyName)
@@ -19,10 +18,6 @@ public class SpinnerModel {
         this.Image = Image;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
     /*********** Get Methods ****************/
     public String getItemDescription()
     {
@@ -32,9 +27,5 @@ public class SpinnerModel {
     public String getImage()
     {
         return this.Image;
-    }
-
-    public int getId() {
-        return this.id;
     }
 }
